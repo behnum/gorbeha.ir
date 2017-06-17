@@ -44,8 +44,11 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          <p>بهار ۱۳۹۶ &copy;</p>
+          <p>بهار ۱۳۹۶ &copy; گربه‌ها</p>
           {% include svg-icons.html %}
+          <a href="https://twitter.com/share?text={{ page.title }}&url={{ page.shorturl }}&via=#https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="در توییتر به اشتراک بگذارید">
+            <img alt="..." class="footer-icon" src="{{ site.baseurl }}/images/twitter_logo_blue.png">
+          </a>
         </footer>
       </div>
     </div>
