@@ -1,2 +1,2 @@
 # 😺 Gorbeha
-Gorbeha is a collection of short stories in Persian.
+Gorbeha is a story about cats, written in Persian.
